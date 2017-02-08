@@ -1,0 +1,6 @@
+framework module Pods_LJHY_User {
+  umbrella header "Pods-LJHY_User-umbrella.h"
+
+  export *
+  module * { export * }
+}

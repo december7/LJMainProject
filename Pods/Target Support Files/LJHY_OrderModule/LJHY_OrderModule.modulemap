@@ -1,0 +1,6 @@
+framework module LJHY_OrderModule {
+  umbrella header "LJHY_OrderModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

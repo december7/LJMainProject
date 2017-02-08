@@ -1,0 +1,139 @@
+//
+//  LJHY_User-Prefix.pch
+//  LJHY_User
+//
+//  Created by 李彬 on 2016/12/9.
+//  Copyright © 2016年 mac. All rights reserved.
+//
+
+#ifndef LJHY_User_Prefix_pch
+#define LJHY_User_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import <SDAutoLayout/SDAutoLayout.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <MJExtension/MJExtension.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <Toast/UIView+Toast.h>
+#import <CTMediator/CTMediator.h>
+#import <YTKNetwork/YTKNetwork.h>
+
+#import "LJView.h"
+#import "LJButton.h"
+#import "LJLabel.h"
+#import "LJImageView.h"
+#import "LJTableViewCell.h"
+
+
+//开发的时候打印，但是发布的时候不打印的NSLog
+#ifdef DEBUG
+    #define NSLog(...) NSLog(@"%s 第%d行 \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+#else
+    #define NSLog(...)
+#endif
+
+
+//字符串是否为空
+#define kStringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES : NO )
+//数组是否为空
+#define kArrayIsEmpty(array) (array == nil || [array isKindOfClass:[NSNull class]] || array.count == 0)
+//字典是否为空
+#define kDictIsEmpty(dic) (dic == nil || [dic isKindOfClass:[NSNull class]] || dic.allKeys == 0)
+//是否是空对象
+#define kObjectIsEmpty(_object) (_object == nil \
+    || [_object isKindOfClass:[NSNull class]] \
+    || ([_object respondsToSelector:@selector(length)] && [(NSData *)_object length] == 0) \
+    || ([_object respondsToSelector:@selector(count)] && [(NSArray *)_object count] == 0))
+
+//APP版本号
+#define kAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+//系统版本号
+#define kSystemVersion [[UIDevice currentDevice] systemVersion] floatValue]
+//获取沙盒Document路径
+#define kDocumentPath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
+//获取沙盒temp路径
+#define kTempPath NSTemporaryDirectory()
+//获取沙盒Cache路径
+#define kCachePath [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
+
+//一些常用的缩写
+#define kApplication        [UIApplication sharedApplication]
+#define kKeyWindow          [UIApplication sharedApplication].keyWindow
+#define kAppDelegate        [UIApplication sharedApplication].delegate
+#define kUserDefaults       [NSUserDefaults standardUserDefaults]
+#define kNotificationCenter [NSNotificationCenter defaultCenter]
+
+//RGB色
+#define kRGBColor(r, g, b)    [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+//RGBA色
+#define kRGBAColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:a]
+//随机颜色
+#define kRandomColor    KRGBColor(arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0)
+//16进制色
+#define kColorWithHex(rgbValue) \
+    [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16)) / 255.0 \
+    green:((float)((rgbValue & 0xFF00) >> 8)) / 255.0 \
+    blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:1.0]
+
+//App颜色
+#define LJ_Yellow_Color [UIColor colorWithRed:0.97 green:0.77 blue:0.20 alpha:1.00]
+#define LJ_Line_Color [UIColor colorWithRed:0.95 green:0.95 blue:0.95 alpha:1.0]
+#define LJ_Text_Color [UIColor colorWithRed:0.30 green:0.30 blue:0.30 alpha:1.0]
+
+
+//屏幕宽高
+#define Screen_W [UIScreen mainScreen].bounds.size.width
+#define Screen_H [UIScreen mainScreen].bounds.size.height
+//导航栏+状态栏高度
+#define NavStatusBar_Height 64
+#define TabBar_Height 49
+
+//弱引用 or 强引用
+#define kWeakSelf(type)  __weak typeof(type) weak##type = type;
+#define kStrongSelf(type) __strong typeof(type) type = weak##type;
+
+//单例化一个类
+#define SYNTHESIZE_SINGLETON_FOR_CLASS(classname) \
+    \
+    static classname *shared##classname = nil; \
+    \
+    + (classname *)shared##classname \
+    { \
+    @synchronized(self) \
+    { \
+    if (shared##classname == nil) \
+    { \
+        shared##classname = ［self alloc] init]; \
+    } \
+    } \
+    \
+    return shared##classname; \
+    } \
+    \
+    + (id)allocWithZone:(NSZone *)zone \
+    { \
+    @synchronized(self) \
+    { \
+    if (shared##classname == nil) \
+    { \
+    shared##classname = [super allocWithZone:zone]; \
+    return shared##classname; \
+    } \
+    } \
+    \
+    return nil; \
+    } \
+    \
+    - (id)copyWithZone:(NSZone *)zone \
+    { \
+    return self; \
+    }
+
+
+#endif /* LJHY_User_Prefix_pch */
