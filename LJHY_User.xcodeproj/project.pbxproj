@@ -81,6 +81,18 @@
 		DD6A420A1ECAAB4C00D42E93 /* VPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6A41D91ECAAB4C00D42E93 /* VPViewController.m */; };
 		DD6A420B1ECAAB4C00D42E93 /* ZoomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6A41DC1ECAAB4C00D42E93 /* ZoomImage.m */; };
 		DDFC91C31ECC40A3002AFA6F /* UIImage+ResizeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFC91C21ECC40A3002AFA6F /* UIImage+ResizeImage.m */; };
+		DDFC91E81ECD29BE002AFA6F /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC91D91ECD29BE002AFA6F /* Common.xcconfig */; };
+		DDFC91E91ECD29BF002AFA6F /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC91DB1ECD29BE002AFA6F /* Debug.xcconfig */; };
+		DDFC91EA1ECD29BF002AFA6F /* Profile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC91DC1ECD29BE002AFA6F /* Profile.xcconfig */; };
+		DDFC91EB1ECD29BF002AFA6F /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC91DD1ECD29BE002AFA6F /* Release.xcconfig */; };
+		DDFC91EC1ECD29BF002AFA6F /* Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC91DE1ECD29BE002AFA6F /* Test.xcconfig */; };
+		DDFC91ED1ECD29BF002AFA6F /* Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC91E01ECD29BE002AFA6F /* Application.xcconfig */; };
+		DDFC91EE1ECD29BF002AFA6F /* Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC91E11ECD29BE002AFA6F /* Framework.xcconfig */; };
+		DDFC91EF1ECD29BF002AFA6F /* StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC91E21ECD29BE002AFA6F /* StaticLibrary.xcconfig */; };
+		DDFC91F01ECD29BF002AFA6F /* iOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC91E41ECD29BE002AFA6F /* iOS-Application.xcconfig */; };
+		DDFC91F11ECD29BF002AFA6F /* iOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC91E51ECD29BE002AFA6F /* iOS-Base.xcconfig */; };
+		DDFC91F21ECD29BF002AFA6F /* iOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC91E61ECD29BE002AFA6F /* iOS-Framework.xcconfig */; };
+		DDFC91F31ECD29BF002AFA6F /* iOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC91E71ECD29BE002AFA6F /* iOS-StaticLibrary.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -254,6 +266,18 @@
 		DD6A41DC1ECAAB4C00D42E93 /* ZoomImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomImage.m; sourceTree = "<group>"; };
 		DDFC91C11ECC40A3002AFA6F /* UIImage+ResizeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ResizeImage.h"; sourceTree = "<group>"; };
 		DDFC91C21ECC40A3002AFA6F /* UIImage+ResizeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ResizeImage.m"; sourceTree = "<group>"; };
+		DDFC91D91ECD29BE002AFA6F /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		DDFC91DB1ECD29BE002AFA6F /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		DDFC91DC1ECD29BE002AFA6F /* Profile.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
+		DDFC91DD1ECD29BE002AFA6F /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		DDFC91DE1ECD29BE002AFA6F /* Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
+		DDFC91E01ECD29BE002AFA6F /* Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		DDFC91E11ECD29BE002AFA6F /* Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
+		DDFC91E21ECD29BE002AFA6F /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
+		DDFC91E41ECD29BE002AFA6F /* iOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
+		DDFC91E51ECD29BE002AFA6F /* iOS-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
+		DDFC91E61ECD29BE002AFA6F /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		DDFC91E71ECD29BE002AFA6F /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		DF7F520770069FF4390A5315 /* Pods-LJHY_User.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJHY_User.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJHY_User/Pods-LJHY_User.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -288,6 +312,8 @@
 		1AEAF555072DE00A884FC0B2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				DDFC91D81ECD29BE002AFA6F /* Base */,
+				DDFC91E31ECD29BE002AFA6F /* iOS */,
 				C10F3C374053DBEB0C9EA65D /* Pods-LJHY_User.debug.xcconfig */,
 				DF7F520770069FF4390A5315 /* Pods-LJHY_User.release.xcconfig */,
 				1BDB4114213BDAB4F574E70D /* Pods-LJHY_UserTests.debug.xcconfig */,
@@ -822,6 +848,50 @@
 			path = ZoomImage;
 			sourceTree = "<group>";
 		};
+		DDFC91D81ECD29BE002AFA6F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC91D91ECD29BE002AFA6F /* Common.xcconfig */,
+				DDFC91DA1ECD29BE002AFA6F /* Configurations */,
+				DDFC91DF1ECD29BE002AFA6F /* Targets */,
+			);
+			name = Base;
+			path = "Pods/Target Support Files/Pods-LJHY_User/Base";
+			sourceTree = "<group>";
+		};
+		DDFC91DA1ECD29BE002AFA6F /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC91DB1ECD29BE002AFA6F /* Debug.xcconfig */,
+				DDFC91DC1ECD29BE002AFA6F /* Profile.xcconfig */,
+				DDFC91DD1ECD29BE002AFA6F /* Release.xcconfig */,
+				DDFC91DE1ECD29BE002AFA6F /* Test.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		DDFC91DF1ECD29BE002AFA6F /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC91E01ECD29BE002AFA6F /* Application.xcconfig */,
+				DDFC91E11ECD29BE002AFA6F /* Framework.xcconfig */,
+				DDFC91E21ECD29BE002AFA6F /* StaticLibrary.xcconfig */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		DDFC91E31ECD29BE002AFA6F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC91E41ECD29BE002AFA6F /* iOS-Application.xcconfig */,
+				DDFC91E51ECD29BE002AFA6F /* iOS-Base.xcconfig */,
+				DDFC91E61ECD29BE002AFA6F /* iOS-Framework.xcconfig */,
+				DDFC91E71ECD29BE002AFA6F /* iOS-StaticLibrary.xcconfig */,
+			);
+			name = iOS;
+			path = "Pods/Target Support Files/Pods-LJHY_User/iOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -938,9 +1008,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDFC91EA1ECD29BF002AFA6F /* Profile.xcconfig in Resources */,
 				DD2D00741ECAD69800C21A3C /* Info.plist in Resources */,
+				DDFC91ED1ECD29BF002AFA6F /* Application.xcconfig in Resources */,
+				DDFC91EF1ECD29BF002AFA6F /* StaticLibrary.xcconfig in Resources */,
 				DD6A41E11ECAAB4C00D42E93 /* zyb.db in Resources */,
 				DD2D00721ECAD69800C21A3C /* Assets.xcassets in Resources */,
+				DDFC91EE1ECD29BF002AFA6F /* Framework.xcconfig in Resources */,
+				DDFC91EC1ECD29BF002AFA6F /* Test.xcconfig in Resources */,
+				DDFC91E91ECD29BF002AFA6F /* Debug.xcconfig in Resources */,
+				DDFC91F11ECD29BF002AFA6F /* iOS-Base.xcconfig in Resources */,
+				DDFC91EB1ECD29BF002AFA6F /* Release.xcconfig in Resources */,
+				DDFC91F31ECD29BF002AFA6F /* iOS-StaticLibrary.xcconfig in Resources */,
+				DDFC91F21ECD29BF002AFA6F /* iOS-Framework.xcconfig in Resources */,
+				DDFC91E81ECD29BE002AFA6F /* Common.xcconfig in Resources */,
+				DDFC91F01ECD29BF002AFA6F /* iOS-Application.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
