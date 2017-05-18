@@ -80,6 +80,7 @@
 		DD6A42091ECAAB4C00D42E93 /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6A41D71ECAAB4C00D42E93 /* VPImageCropperViewController.m */; };
 		DD6A420A1ECAAB4C00D42E93 /* VPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6A41D91ECAAB4C00D42E93 /* VPViewController.m */; };
 		DD6A420B1ECAAB4C00D42E93 /* ZoomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6A41DC1ECAAB4C00D42E93 /* ZoomImage.m */; };
+		DDFC91C31ECC40A3002AFA6F /* UIImage+ResizeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFC91C21ECC40A3002AFA6F /* UIImage+ResizeImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -251,6 +252,8 @@
 		DD6A41D91ECAAB4C00D42E93 /* VPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPViewController.m; sourceTree = "<group>"; };
 		DD6A41DB1ECAAB4C00D42E93 /* ZoomImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomImage.h; sourceTree = "<group>"; };
 		DD6A41DC1ECAAB4C00D42E93 /* ZoomImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomImage.m; sourceTree = "<group>"; };
+		DDFC91C11ECC40A3002AFA6F /* UIImage+ResizeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ResizeImage.h"; sourceTree = "<group>"; };
+		DDFC91C21ECC40A3002AFA6F /* UIImage+ResizeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ResizeImage.m"; sourceTree = "<group>"; };
 		DF7F520770069FF4390A5315 /* Pods-LJHY_User.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJHY_User.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJHY_User/Pods-LJHY_User.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -471,6 +474,8 @@
 		DD6A410D1ECAAA3400D42E93 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				DDFC91C11ECC40A3002AFA6F /* UIImage+ResizeImage.h */,
+				DDFC91C21ECC40A3002AFA6F /* UIImage+ResizeImage.m */,
 				DD6A410E1ECAAA3400D42E93 /* NSArray+Log.h */,
 				DD6A410F1ECAAA3400D42E93 /* NSArray+Log.m */,
 				DD6A41101ECAAA3400D42E93 /* NSDate+Helper.h */,
@@ -1139,6 +1144,7 @@
 				DD6A41331ECAAA3400D42E93 /* NSString+Valid.m in Sources */,
 				DD6A41EF1ECAAB4C00D42E93 /* DLFixedTabbarView.m in Sources */,
 				DD6A420A1ECAAB4C00D42E93 /* VPViewController.m in Sources */,
+				DDFC91C31ECC40A3002AFA6F /* UIImage+ResizeImage.m in Sources */,
 				DD2D00771ECAD69800C21A3C /* CTMediator+LJMediatorHomeActions.m in Sources */,
 				DD6A41F21ECAAB4C00D42E93 /* DLUtility.m in Sources */,
 				DD6A41371ECAAA3400D42E93 /* UIImage+LJColor.m in Sources */,
