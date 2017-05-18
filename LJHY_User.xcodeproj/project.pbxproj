@@ -121,7 +121,7 @@
 		A8FD70A0E29C09FD2BABC762 /* Pods-LJHY_UserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJHY_UserUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJHY_UserUITests/Pods-LJHY_UserUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE679A193E256B42498A794C /* Pods_LJHY_UserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJHY_UserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C10F3C374053DBEB0C9EA65D /* Pods-LJHY_User.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJHY_User.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJHY_User/Pods-LJHY_User.debug.xcconfig"; sourceTree = "<group>"; };
-		DA74C21F1DFA53F700F6F28B /* LJHY_User.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJHY_User.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA74C21F1DFA53F700F6F28B /* 模版app debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "模版app debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA74C2381DFA53F700F6F28B /* LJHY_UserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJHY_UserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA74C23C1DFA53F700F6F28B /* LJHY_UserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJHY_UserTests.m; sourceTree = "<group>"; };
 		DA74C23E1DFA53F700F6F28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -349,7 +349,7 @@
 		DA74C2201DFA53F700F6F28B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA74C21F1DFA53F700F6F28B /* LJHY_User.app */,
+				DA74C21F1DFA53F700F6F28B /* 模版app debug.app */,
 				DA74C2381DFA53F700F6F28B /* LJHY_UserTests.xctest */,
 				DA74C2431DFA53F700F6F28B /* LJHY_UserUITests.xctest */,
 			);
@@ -912,7 +912,7 @@
 			);
 			name = LJHY_User;
 			productName = LJHY_User;
-			productReference = DA74C21F1DFA53F700F6F28B /* LJHY_User.app */;
+			productReference = DA74C21F1DFA53F700F6F28B /* 模版app debug.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DA74C2371DFA53F700F6F28B /* LJHY_UserTests */ = {
@@ -1388,8 +1388,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/LJHY_User/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.linjiahaoyi.LJHY-User";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "--APP-BUNDLEIDENTIFIER-";
+				PRODUCT_NAME = "$(APP_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
@@ -1406,8 +1406,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/LJHY_User/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.linjiahaoyi.LJHY-User";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "--APP-BUNDLEIDENTIFIER-";
+				PRODUCT_NAME = "$(APP_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
