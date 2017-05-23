@@ -12,6 +12,7 @@
 		9BC1D8A977CC0A02AE8D5340 /* Pods_LJHY_UserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE679A193E256B42498A794C /* Pods_LJHY_UserTests.framework */; };
 		DA74C23D1DFA53F700F6F28B /* LJHY_UserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA74C23C1DFA53F700F6F28B /* LJHY_UserTests.m */; };
 		DA74C2481DFA53F700F6F28B /* LJHY_UserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA74C2471DFA53F700F6F28B /* LJHY_UserUITests.m */; };
+		DD1E554F1ED431E1007DBBEF /* AgreeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1E554E1ED431E1007DBBEF /* AgreeButton.m */; };
 		DD2D00671ECAD69800C21A3C /* LJBaseRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D00371ECAD69800C21A3C /* LJBaseRootViewController.m */; };
 		DD2D00681ECAD69800C21A3C /* LJBaseSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D00391ECAD69800C21A3C /* LJBaseSubViewController.m */; };
 		DD2D00691ECAD69800C21A3C /* LJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D003B1ECAD69800C21A3C /* LJBaseViewController.m */; };
@@ -128,6 +129,8 @@
 		DA74C2431DFA53F700F6F28B /* LJHY_UserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJHY_UserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA74C2471DFA53F700F6F28B /* LJHY_UserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJHY_UserUITests.m; sourceTree = "<group>"; };
 		DA74C2491DFA53F700F6F28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1E554D1ED431E1007DBBEF /* AgreeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgreeButton.h; sourceTree = "<group>"; };
+		DD1E554E1ED431E1007DBBEF /* AgreeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgreeButton.m; sourceTree = "<group>"; };
 		DD2D00361ECAD69800C21A3C /* LJBaseRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJBaseRootViewController.h; sourceTree = "<group>"; };
 		DD2D00371ECAD69800C21A3C /* LJBaseRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJBaseRootViewController.m; sourceTree = "<group>"; };
 		DD2D00381ECAD69800C21A3C /* LJBaseSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJBaseSubViewController.h; sourceTree = "<group>"; };
@@ -569,6 +572,8 @@
 		DD6A41561ECAAB4C00D42E93 /* AgreeButton */ = {
 			isa = PBXGroup;
 			children = (
+				DD1E554D1ED431E1007DBBEF /* AgreeButton.h */,
+				DD1E554E1ED431E1007DBBEF /* AgreeButton.m */,
 			);
 			path = AgreeButton;
 			sourceTree = "<group>";
@@ -1232,6 +1237,7 @@
 				DD6A41371ECAAA3400D42E93 /* UIImage+LJColor.m in Sources */,
 				DD6A42041ECAAB4C00D42E93 /* STUI.m in Sources */,
 				DD6A41F11ECAAB4C00D42E93 /* DlTabedSlideView.m in Sources */,
+				DD1E554F1ED431E1007DBBEF /* AgreeButton.m in Sources */,
 				DD6A42031ECAAB4C00D42E93 /* STConst.m in Sources */,
 				DD6A420B1ECAAB4C00D42E93 /* ZoomImage.m in Sources */,
 				DD6A41EE1ECAAB4C00D42E93 /* DLSlideView.m in Sources */,
