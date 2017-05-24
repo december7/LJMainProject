@@ -81,6 +81,10 @@
 		DD6A42091ECAAB4C00D42E93 /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6A41D71ECAAB4C00D42E93 /* VPImageCropperViewController.m */; };
 		DD6A420A1ECAAB4C00D42E93 /* VPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6A41D91ECAAB4C00D42E93 /* VPViewController.m */; };
 		DD6A420B1ECAAB4C00D42E93 /* ZoomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6A41DC1ECAAB4C00D42E93 /* ZoomImage.m */; };
+		DDEE57251ED569C600F237C4 /* dailylog_fabulous_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDEE57211ED569C600F237C4 /* dailylog_fabulous_selected@2x.png */; };
+		DDEE57261ED569C600F237C4 /* dailylog_fabulous_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDEE57221ED569C600F237C4 /* dailylog_fabulous_selected@3x.png */; };
+		DDEE57271ED569C600F237C4 /* dailylog_fabulous@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDEE57231ED569C600F237C4 /* dailylog_fabulous@2x.png */; };
+		DDEE57281ED569C600F237C4 /* dailylog_fabulous@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDEE57241ED569C600F237C4 /* dailylog_fabulous@3x.png */; };
 		DDFC91C31ECC40A3002AFA6F /* UIImage+ResizeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFC91C21ECC40A3002AFA6F /* UIImage+ResizeImage.m */; };
 		DDFC91E81ECD29BE002AFA6F /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC91D91ECD29BE002AFA6F /* Common.xcconfig */; };
 		DDFC91E91ECD29BF002AFA6F /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC91DB1ECD29BE002AFA6F /* Debug.xcconfig */; };
@@ -267,6 +271,10 @@
 		DD6A41D91ECAAB4C00D42E93 /* VPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPViewController.m; sourceTree = "<group>"; };
 		DD6A41DB1ECAAB4C00D42E93 /* ZoomImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomImage.h; sourceTree = "<group>"; };
 		DD6A41DC1ECAAB4C00D42E93 /* ZoomImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomImage.m; sourceTree = "<group>"; };
+		DDEE57211ED569C600F237C4 /* dailylog_fabulous_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dailylog_fabulous_selected@2x.png"; sourceTree = "<group>"; };
+		DDEE57221ED569C600F237C4 /* dailylog_fabulous_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dailylog_fabulous_selected@3x.png"; sourceTree = "<group>"; };
+		DDEE57231ED569C600F237C4 /* dailylog_fabulous@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dailylog_fabulous@2x.png"; sourceTree = "<group>"; };
+		DDEE57241ED569C600F237C4 /* dailylog_fabulous@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dailylog_fabulous@3x.png"; sourceTree = "<group>"; };
 		DDFC91C11ECC40A3002AFA6F /* UIImage+ResizeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ResizeImage.h"; sourceTree = "<group>"; };
 		DDFC91C21ECC40A3002AFA6F /* UIImage+ResizeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ResizeImage.m"; sourceTree = "<group>"; };
 		DDFC91D91ECD29BE002AFA6F /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
@@ -572,6 +580,10 @@
 		DD6A41561ECAAB4C00D42E93 /* AgreeButton */ = {
 			isa = PBXGroup;
 			children = (
+				DDEE57211ED569C600F237C4 /* dailylog_fabulous_selected@2x.png */,
+				DDEE57221ED569C600F237C4 /* dailylog_fabulous_selected@3x.png */,
+				DDEE57231ED569C600F237C4 /* dailylog_fabulous@2x.png */,
+				DDEE57241ED569C600F237C4 /* dailylog_fabulous@3x.png */,
 				DD1E554D1ED431E1007DBBEF /* AgreeButton.h */,
 				DD1E554E1ED431E1007DBBEF /* AgreeButton.m */,
 			);
@@ -1014,9 +1026,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDFC91EA1ECD29BF002AFA6F /* Profile.xcconfig in Resources */,
+				DDEE57251ED569C600F237C4 /* dailylog_fabulous_selected@2x.png in Resources */,
 				DD2D00741ECAD69800C21A3C /* Info.plist in Resources */,
 				DDFC91ED1ECD29BF002AFA6F /* Application.xcconfig in Resources */,
 				DDFC91EF1ECD29BF002AFA6F /* StaticLibrary.xcconfig in Resources */,
+				DDEE57281ED569C600F237C4 /* dailylog_fabulous@3x.png in Resources */,
 				DD6A41E11ECAAB4C00D42E93 /* zyb.db in Resources */,
 				DD2D00721ECAD69800C21A3C /* Assets.xcassets in Resources */,
 				DDFC91EE1ECD29BF002AFA6F /* Framework.xcconfig in Resources */,
@@ -1024,6 +1038,8 @@
 				DDFC91E91ECD29BF002AFA6F /* Debug.xcconfig in Resources */,
 				DDFC91F11ECD29BF002AFA6F /* iOS-Base.xcconfig in Resources */,
 				DDFC91EB1ECD29BF002AFA6F /* Release.xcconfig in Resources */,
+				DDEE57271ED569C600F237C4 /* dailylog_fabulous@2x.png in Resources */,
+				DDEE57261ED569C600F237C4 /* dailylog_fabulous_selected@3x.png in Resources */,
 				DDFC91F31ECD29BF002AFA6F /* iOS-StaticLibrary.xcconfig in Resources */,
 				DDFC91F21ECD29BF002AFA6F /* iOS-Framework.xcconfig in Resources */,
 				DDFC91E81ECD29BE002AFA6F /* Common.xcconfig in Resources */,

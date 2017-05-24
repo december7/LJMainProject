@@ -11,7 +11,7 @@
 
 @interface AgreeButton ()
 
- @end
+@end
 @implementation AgreeButton
 
 /*
@@ -37,16 +37,22 @@
 {
     _isAgree =isAgree;
     
-    [self setImage:[UIImage imageNamed:(_isAgree)?@"dailylog_fabulous_selected":@"dailylog_comment"] forState:UIControlStateNormal];
+    [self setImage:[UIImage imageNamed:(_isAgree)?@"dailylog_fabulous_selected":@"dailylog_fabulous"] forState:UIControlStateNormal];
     
-    self.layer.contents = (id)[UIImage imageNamed:(_isAgree?@"dailylog_fabulous_selected":@"dailylog_comment@3x")].CGImage;
-    CAKeyframeAnimation *k = [CAKeyframeAnimation animationWithKeyPath:@"transform.scale"];
-    k.values = @[@(0.1),@(1.0),@(1.5)];
-    k.keyTimes = @[@(0.0),@(0.5),@(0.8),@(1.0)];
-    k.calculationMode = kCAAnimationLinear;
     
-    [self.layer addAnimation:k forKey:@"SHOW"];
-
+    
+    if (isAgree){
+        CAKeyframeAnimation *k = [CAKeyframeAnimation animationWithKeyPath:@"transform.scale"];
+        k.values = @[@(0.1),@(1.5),@(1.0)];
+        k.keyTimes = @[@(0.0),@(0.5),@(0.8),@(1.0)];
+        k.calculationMode = kCAAnimationLinear;
+        
+        
+        [self.layer addAnimation:k forKey:@"SHOW"];
+        
+    }
+    
+    
 }
 
 
